@@ -1,0 +1,68 @@
+
+
+.searchbox{
+    position: absolute;
+    margin: auto;
+    top: -300px;
+    right: 250px;
+    bottom: 0;
+    left: 0;
+    width: 580px;
+    height: 100px;
+    /* background-color: #ccc; */
+  }
+  
+  #query {
+      width: 410px;
+      /* border-radius: 2px; */
+      background: #f2f2f2;
+      border: 1px solid #cac6c6;
+      color: #757575;
+      cursor: default;
+      font-size: 14px;
+      font-weight: bold;
+      /* width: 100px; */
+      padding: 0 16px;
+      height:50px;
+      border-radius: 6px;
+      /* outline-color : #54b8aa;      */
+      outline: none;
+    }
+    #query:focus{
+    box-shadow: 0 0 8px #54b8aa;
+    }
+    #query:hover{
+        transition: ease-in 0.5s;
+        box-shadow: 0 0 10px #54b8aa;
+        }
+  .bookList{
+  
+    list-style-type: none;
+  }
+  
+  
+  
+  /* When the input field gets focus, change its width to 100% */
+  #suggest:focus {
+    height: 100%;
+  }
+  
+  #getList{
+    border: 0;
+    background: #54b8aa;
+    float: right;
+    /* position: absolute; */
+    /* right:0; */
+    /* margin-top:-40px; */
+    height:50px;
+    outline: none;
+  }
+  #getList:focus{
+    /* transition: ease-in 0.5s; */
+    box-shadow: 0 0 10px #54b8aa;
+    }
+    #getList:hover{
+        transition: ease-in 0.5s;
+        box-shadow: 0 0 10px #54b8aa;
+        }
+  
